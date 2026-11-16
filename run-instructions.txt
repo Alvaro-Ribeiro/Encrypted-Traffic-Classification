@@ -1,0 +1,8 @@
+# Comandos de permissões
+sudo usermod -aG pipewire root
+sudo usermod -aG audio root
+xhost +SI:localuser:root
+
+# Rodar script de captura desejado
+sudo python3 script-captura.py #Ex: sudo python3 telegram.py
+

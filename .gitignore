@@ -1,0 +1,19 @@
+# Ambientes virtuais e cache Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Capturas brutas e datasets pesados (evita exceder limite de 100MB do GitHub)
+pcaps/**/*.pcap
+pcaps/**/*.pcapng
+*.pcap
+*.pcapng
+data/*.csv
+*.csv
+
+# Arquivos de sistema e IDEs
+.DS_Store
+.vscode/
+.idea/
